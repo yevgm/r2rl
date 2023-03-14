@@ -109,6 +109,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea/**
+.src/.ipynb_checkpoints/**
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +129,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# results
+output/
+
+wandb/
+src/wandb/
+src/dqn/wandb/
+plots/
+src/plot_data/

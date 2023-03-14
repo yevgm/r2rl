@@ -1,0 +1,29 @@
+project: robust_rl
+program: src/maze/double_q_learning.py
+method: grid
+metric:
+  goal: maximize
+  name: final_score
+parameters:
+  use-wandb:
+    values: [True]
+  save-model:
+    values: [False]
+  algo_type:
+    values: ['r2']
+  seed:
+    values: [0, 1, 2, 3, 4]
+  random_start:
+    values: [False]
+  beta:
+    values: [.0000001,.00001, .0001, .001, .01, .1,.5, 1]
+  num-iterations:
+    values: [500000]
+  num-episodes:
+    values: [10000]
+  streak-to-end:
+    values: [3000]
+  
+
+
+
