@@ -1,3 +1,4 @@
+# The code was partially based on https://github.com/XinJingHao/DQN-DDQN-Pytorch repository.
 import os
 import numpy as np
 import torch
